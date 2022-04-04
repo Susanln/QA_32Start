@@ -24,7 +24,7 @@ public class Test32_1 {
         wd.navigate().to("https://trello.com/");
     }
 
-    @Test 
+    @Test
             public void test1() {
         WebElement el = wd.findElement(By.tagName("a"));
         WebElement el2 = wd.findElement(By.tagName("div"));
